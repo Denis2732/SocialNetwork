@@ -1,0 +1,10 @@
+.footer {
+  grid-area: f;
+  width: 100%;
+  height: 35px;
+  background-color: #e6eeea;
+  text-align: center; 
+  line-height: 35px;
+  vertical-align: middle;
+ 
+}

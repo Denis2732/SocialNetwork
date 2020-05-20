@@ -1,0 +1,86 @@
+.content {
+  min-width: 400px;
+  height: 820px;
+  grid-area: c;
+  overflow: hidden; 
+  
+}
+.content-profile {
+  height: 100%;
+  overflow-y: scroll;
+}
+.content-img {
+  width: 100%;
+  height: 200px;
+  overflow: hidden; 
+}
+.avatar {
+  display: flex;
+  flex-direction: row;
+  height: 180px;
+  margin-top: 20px;
+}
+.avatar img{
+  width: 200px;
+  height: 200px;
+}
+.user-data-list {
+  height: 180px;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.my-post {
+  position: relative;
+  padding-top: 40px;
+  width: 85%; 
+}
+.input {
+  margin-top: 10px;
+  width: 100%;
+  height: 55px;
+  background: #e6eeea;
+  border: none;
+  border-radius: 2px;
+  word-wrap: break-word;
+  padding: 10px 0px 10px 10px;
+  resize: none; 
+
+}
+.btn {
+  position: absolute;
+  background-color: #0cb658;
+  border: none;
+  width: 145px;
+  height: 35px;
+  color: white;
+  font-size: 16px;
+  font-weight: 600;
+  top: 170px;
+  right: -10px;
+  border-radius: 2px;
+}
+.post {
+  margin-top: 80px;
+  position: relative;
+
+}
+.post p {
+  max-width: 650px;
+  margin: 0;
+  margin-left: 50px;
+  word-wrap: break-word;
+  vertical-align: middle;
+  padding-right: 16px; 
+
+}
+.post img {
+  position: absolute;
+  top: -10px;
+  display: block;
+  width: 40px; 
+  height: 40px;
+  border-radius: 50%;
+  margin: 0; 
+}

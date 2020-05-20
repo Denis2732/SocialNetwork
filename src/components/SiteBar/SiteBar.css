@@ -1,0 +1,34 @@
+.site-bar {
+  min-width: 230px;
+  height: 800px;
+  background-color: #0cb658;
+  padding-left: 24px;
+  padding-top: 24px;
+  grid-area: s;
+  font-size: 18px;
+  font-weight: 600;
+  cursor: pointer;
+}
+.site-bar_nav {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.site-bar_nav a {
+ padding-left: 10px;
+  color: white;
+  margin-bottom: 3px;
+  line-height: 20px;
+}
+.site-bar_nav a:nth-child(6) {
+  margin-top: 30px;
+}
+.site-bar_nav a:hover {
+  border-left: 3px ridge white;
+  margin-left: -3px;
+
+}
+a.activeLink {
+  border-left: 3px ridge white;
+  margin-left: -3px;
+}
